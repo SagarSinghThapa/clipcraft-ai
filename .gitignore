@@ -1,0 +1,111 @@
+# =================================================================
+# ClipCraft AI - Production .gitignore
+# =================================================================
+
+# -----------------------------------------------------------------
+# Python & Virtual Environments
+# -----------------------------------------------------------------
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+/build/
+/develop-eggs/
+/dist/
+/downloads/
+/eggs/
+/.eggs/
+/lib/
+/lib64/
+/parts/
+/sdist/
+/var/
+/wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing, Linting & Coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.cache/
+
+# -----------------------------------------------------------------
+# Node & Frontend
+# -----------------------------------------------------------------
+node_modules/
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# -----------------------------------------------------------------
+# Secrets & Environment Variables
+# -----------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# -----------------------------------------------------------------
+# ClipCraft User Projects & Generated Media
+# -----------------------------------------------------------------
+projects/
+
+# Raw and Rendered Media Formats
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.avi
+*.flv
+*.wav
+*.mp3
+*.m4a
+*.aac
+
+# -----------------------------------------------------------------
+# Temporary & Generated Media
+# -----------------------------------------------------------------
+temp/
+tmp/
+cache/
+*.tmp
+
+# Scratch acceptance verification dumps
+run_*_acceptance.py
+render_phase13_clips.py
+*_acceptance_results.json
+*_render_verification.json
+*_comparison_results.json
+v2_final_acceptance_results.json
+
+# -----------------------------------------------------------------
+# IDE & Operating System Files
+# -----------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+Desktop.ini
+
+# -----------------------------------------------------------------
+# Logs
+# -----------------------------------------------------------------
+*.log
+logs/
